@@ -1,5 +1,15 @@
-//: Playground - noun: a place where people can play
+// Functions
 
 import UIKit
 
-var str = "Hello, playground"
+
+println("Swift Functions")
+
+func calculateArea(heigth: Int, width: Int) {
+    let area = heigth * width
+    println("The area of the room is \(area)")
+}
+
+calculateArea(10, 12)
+
+
