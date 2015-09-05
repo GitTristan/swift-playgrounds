@@ -5,11 +5,10 @@ import UIKit
 
 println("Swift Functions")
 
-func calculateArea(heigth: Int, width: Int) {
-    let area = heigth * width
-    println("The area of the room is \(area)")
+func calculateArea(#heigth: Int, #width: Int) -> Int {
+    return heigth * width
 }
 
-calculateArea(10, 12)
+let area = calculateArea(heigth: 10, width: 12)
 
-
+println("Area of the room is \(area)")
